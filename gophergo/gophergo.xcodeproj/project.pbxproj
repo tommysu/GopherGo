@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4481D95829BE6CF00005F145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481D95729BE6CF00005F145 /* AppDelegate.swift */; };
+		4481D95A29BE6CF00005F145 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481D95929BE6CF00005F145 /* ContentView.swift */; };
+		4481D95C29BE6CF00005F145 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 4481D95B29BE6CF00005F145 /* Experience.rcproject */; };
+		4481D95E29BE6CF20005F145 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4481D95D29BE6CF20005F145 /* Assets.xcassets */; };
+		4481D96129BE6CF30005F145 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4481D96029BE6CF30005F145 /* Preview Assets.xcassets */; };
+		4481D96B29BE6CF30005F145 /* gophergoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481D96A29BE6CF30005F145 /* gophergoTests.swift */; };
+		4481D97529BE6CF30005F145 /* gophergoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481D97429BE6CF30005F145 /* gophergoUITests.swift */; };
+		4481D97729BE6CF30005F145 /* gophergoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481D97629BE6CF30005F145 /* gophergoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4481D96729BE6CF30005F145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4481D94C29BE6CF00005F145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4481D95329BE6CF00005F145;
+			remoteInfo = gophergo;
+		};
+		4481D97129BE6CF30005F145 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4481D94C29BE6CF00005F145 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4481D95329BE6CF00005F145;
+			remoteInfo = gophergo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4481D95429BE6CF00005F145 /* gophergo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gophergo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4481D95729BE6CF00005F145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4481D95929BE6CF00005F145 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4481D95B29BE6CF00005F145 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		4481D95D29BE6CF20005F145 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4481D96029BE6CF30005F145 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4481D96629BE6CF30005F145 /* gophergoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gophergoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4481D96A29BE6CF30005F145 /* gophergoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gophergoTests.swift; sourceTree = "<group>"; };
+		4481D97029BE6CF30005F145 /* gophergoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gophergoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4481D97429BE6CF30005F145 /* gophergoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gophergoUITests.swift; sourceTree = "<group>"; };
+		4481D97629BE6CF30005F145 /* gophergoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gophergoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4481D95129BE6CF00005F145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4481D96329BE6CF30005F145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4481D96D29BE6CF30005F145 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4481D94B29BE6CF00005F145 = {
+			isa = PBXGroup;
+			children = (
+				4481D95629BE6CF00005F145 /* gophergo */,
+				4481D96929BE6CF30005F145 /* gophergoTests */,
+				4481D97329BE6CF30005F145 /* gophergoUITests */,
+				4481D95529BE6CF00005F145 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4481D95529BE6CF00005F145 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4481D95429BE6CF00005F145 /* gophergo.app */,
+				4481D96629BE6CF30005F145 /* gophergoTests.xctest */,
+				4481D97029BE6CF30005F145 /* gophergoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4481D95629BE6CF00005F145 /* gophergo */ = {
+			isa = PBXGroup;
+			children = (
+				4481D95729BE6CF00005F145 /* AppDelegate.swift */,
+				4481D95929BE6CF00005F145 /* ContentView.swift */,
+				4481D95B29BE6CF00005F145 /* Experience.rcproject */,
+				4481D95D29BE6CF20005F145 /* Assets.xcassets */,
+				4481D95F29BE6CF30005F145 /* Preview Content */,
+			);
+			path = gophergo;
+			sourceTree = "<group>";
+		};
+		4481D95F29BE6CF30005F145 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4481D96029BE6CF30005F145 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4481D96929BE6CF30005F145 /* gophergoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4481D96A29BE6CF30005F145 /* gophergoTests.swift */,
+			);
+			path = gophergoTests;
+			sourceTree = "<group>";
+		};
+		4481D97329BE6CF30005F145 /* gophergoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4481D97429BE6CF30005F145 /* gophergoUITests.swift */,
+				4481D97629BE6CF30005F145 /* gophergoUITestsLaunchTests.swift */,
+			);
+			path = gophergoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4481D95329BE6CF00005F145 /* gophergo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4481D97A29BE6CF30005F145 /* Build configuration list for PBXNativeTarget "gophergo" */;
+			buildPhases = (
+				4481D95029BE6CF00005F145 /* Sources */,
+				4481D95129BE6CF00005F145 /* Frameworks */,
+				4481D95229BE6CF00005F145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gophergo;
+			productName = gophergo;
+			productReference = 4481D95429BE6CF00005F145 /* gophergo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4481D96529BE6CF30005F145 /* gophergoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4481D97D29BE6CF30005F145 /* Build configuration list for PBXNativeTarget "gophergoTests" */;
+			buildPhases = (
+				4481D96229BE6CF30005F145 /* Sources */,
+				4481D96329BE6CF30005F145 /* Frameworks */,
+				4481D96429BE6CF30005F145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4481D96829BE6CF30005F145 /* PBXTargetDependency */,
+			);
+			name = gophergoTests;
+			productName = gophergoTests;
+			productReference = 4481D96629BE6CF30005F145 /* gophergoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4481D96F29BE6CF30005F145 /* gophergoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4481D98029BE6CF30005F145 /* Build configuration list for PBXNativeTarget "gophergoUITests" */;
+			buildPhases = (
+				4481D96C29BE6CF30005F145 /* Sources */,
+				4481D96D29BE6CF30005F145 /* Frameworks */,
+				4481D96E29BE6CF30005F145 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4481D97229BE6CF30005F145 /* PBXTargetDependency */,
+			);
+			name = gophergoUITests;
+			productName = gophergoUITests;
+			productReference = 4481D97029BE6CF30005F145 /* gophergoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4481D94C29BE6CF00005F145 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4481D95329BE6CF00005F145 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					4481D96529BE6CF30005F145 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4481D95329BE6CF00005F145;
+					};
+					4481D96F29BE6CF30005F145 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4481D95329BE6CF00005F145;
+					};
+				};
+			};
+			buildConfigurationList = 4481D94F29BE6CF00005F145 /* Build configuration list for PBXProject "gophergo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4481D94B29BE6CF00005F145;
+			productRefGroup = 4481D95529BE6CF00005F145 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4481D95329BE6CF00005F145 /* gophergo */,
+				4481D96529BE6CF30005F145 /* gophergoTests */,
+				4481D96F29BE6CF30005F145 /* gophergoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4481D95229BE6CF00005F145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4481D96129BE6CF30005F145 /* Preview Assets.xcassets in Resources */,
+				4481D95E29BE6CF20005F145 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4481D96429BE6CF30005F145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4481D96E29BE6CF30005F145 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4481D95029BE6CF00005F145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4481D95A29BE6CF00005F145 /* ContentView.swift in Sources */,
+				4481D95829BE6CF00005F145 /* AppDelegate.swift in Sources */,
+				4481D95C29BE6CF00005F145 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4481D96229BE6CF30005F145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4481D96B29BE6CF30005F145 /* gophergoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4481D96C29BE6CF30005F145 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4481D97729BE6CF30005F145 /* gophergoUITestsLaunchTests.swift in Sources */,
+				4481D97529BE6CF30005F145 /* gophergoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4481D96829BE6CF30005F145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4481D95329BE6CF00005F145 /* gophergo */;
+			targetProxy = 4481D96729BE6CF30005F145 /* PBXContainerItemProxy */;
+		};
+		4481D97229BE6CF30005F145 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4481D95329BE6CF00005F145 /* gophergo */;
+			targetProxy = 4481D97129BE6CF30005F145 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4481D97829BE6CF30005F145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4481D97929BE6CF30005F145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4481D97B29BE6CF30005F145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gophergo/Preview Content\"";
+				DEVELOPMENT_TEAM = 3X7B4D76Q3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.gophergo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4481D97C29BE6CF30005F145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gophergo/Preview Content\"";
+				DEVELOPMENT_TEAM = 3X7B4D76Q3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.gophergo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4481D97E29BE6CF30005F145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.gophergoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gophergo.app/gophergo";
+			};
+			name = Debug;
+		};
+		4481D97F29BE6CF30005F145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.gophergoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gophergo.app/gophergo";
+			};
+			name = Release;
+		};
+		4481D98129BE6CF30005F145 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.gophergoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gophergo;
+			};
+			name = Debug;
+		};
+		4481D98229BE6CF30005F145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.su.gophergoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gophergo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4481D94F29BE6CF00005F145 /* Build configuration list for PBXProject "gophergo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4481D97829BE6CF30005F145 /* Debug */,
+				4481D97929BE6CF30005F145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4481D97A29BE6CF30005F145 /* Build configuration list for PBXNativeTarget "gophergo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4481D97B29BE6CF30005F145 /* Debug */,
+				4481D97C29BE6CF30005F145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4481D97D29BE6CF30005F145 /* Build configuration list for PBXNativeTarget "gophergoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4481D97E29BE6CF30005F145 /* Debug */,
+				4481D97F29BE6CF30005F145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4481D98029BE6CF30005F145 /* Build configuration list for PBXNativeTarget "gophergoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4481D98129BE6CF30005F145 /* Debug */,
+				4481D98229BE6CF30005F145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4481D94C29BE6CF00005F145 /* Project object */;
+}
