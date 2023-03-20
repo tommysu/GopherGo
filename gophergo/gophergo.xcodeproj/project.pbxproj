@@ -15,6 +15,8 @@
 		4481D96B29BE6CF30005F145 /* gophergoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481D96A29BE6CF30005F145 /* gophergoTests.swift */; };
 		4481D97529BE6CF30005F145 /* gophergoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481D97429BE6CF30005F145 /* gophergoUITests.swift */; };
 		4481D97729BE6CF30005F145 /* gophergoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4481D97629BE6CF30005F145 /* gophergoUITestsLaunchTests.swift */; };
+		44F281DE29C3FE6200066DD3 /* Count.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F281DD29C3FE6200066DD3 /* Count.swift */; };
+		44F281E129C4002200066DD3 /* foodcounterresult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F281E029C4002200066DD3 /* foodcounterresult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		4481D97029BE6CF30005F145 /* gophergoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gophergoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4481D97429BE6CF30005F145 /* gophergoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gophergoUITests.swift; sourceTree = "<group>"; };
 		4481D97629BE6CF30005F145 /* gophergoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gophergoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44F281DD29C3FE6200066DD3 /* Count.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Count.swift; sourceTree = "<group>"; };
+		44F281E029C4002200066DD3 /* foodcounterresult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodcounterresult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 		4481D95629BE6CF00005F145 /* gophergo */ = {
 			isa = PBXGroup;
 			children = (
+				44F281DF29C3FF6700066DD3 /* View */,
+				44F281DC29C3FE2900066DD3 /* Model */,
 				4481D95729BE6CF00005F145 /* AppDelegate.swift */,
 				4481D95929BE6CF00005F145 /* ContentView.swift */,
 				4481D95B29BE6CF00005F145 /* Experience.rcproject */,
@@ -128,6 +134,22 @@
 				4481D97629BE6CF30005F145 /* gophergoUITestsLaunchTests.swift */,
 			);
 			path = gophergoUITests;
+			sourceTree = "<group>";
+		};
+		44F281DC29C3FE2900066DD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44F281DD29C3FE6200066DD3 /* Count.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44F281DF29C3FF6700066DD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				44F281E029C4002200066DD3 /* foodcounterresult.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +284,9 @@
 			files = (
 				4481D95A29BE6CF00005F145 /* ContentView.swift in Sources */,
 				4481D95829BE6CF00005F145 /* AppDelegate.swift in Sources */,
+				44F281E129C4002200066DD3 /* foodcounterresult.swift in Sources */,
 				4481D95C29BE6CF00005F145 /* Experience.rcproject in Sources */,
+				44F281DE29C3FE6200066DD3 /* Count.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
